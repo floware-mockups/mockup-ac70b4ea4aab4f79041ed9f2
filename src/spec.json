@@ -1,0 +1,208 @@
+{
+  "title": "Gestione pratiche dello sportello",
+  "description": "Dashboard e strumenti per consultare le pratiche, seguirne stato e scadenza e registrare nuovi aggiornamenti con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle pratiche dello sportello e delle scadenze più vicine.",
+      "metrics": [
+        {
+          "label": "Pratiche totali",
+          "value": "42"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "18"
+        },
+        {
+          "label": "In attesa",
+          "value": "9"
+        },
+        {
+          "label": "Completate",
+          "value": "15"
+        },
+        {
+          "label": "Scadenze entro 7 giorni",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Richiedente",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-1043",
+          "Lumo",
+          "In lavorazione",
+          "12/06/2026"
+        ],
+        [
+          "PR-1042",
+          "Vela",
+          "In attesa",
+          "13/06/2026"
+        ],
+        [
+          "PR-1041",
+          "Nubi",
+          "Da verificare",
+          "15/06/2026"
+        ],
+        [
+          "PR-1040",
+          "Riva",
+          "Completata",
+          "08/06/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Consulta e filtra le pratiche per richiedente, stato e scadenza.",
+      "metrics": [
+        {
+          "label": "Risultati mostrati",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Richiedente",
+        "Oggetto",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-1043",
+          "Lumo",
+          "Richiesta attestazione",
+          "In lavorazione",
+          "03/06/2026",
+          "12/06/2026"
+        ],
+        [
+          "PR-1042",
+          "Vela",
+          "Aggiornamento residenza",
+          "In attesa",
+          "02/06/2026",
+          "13/06/2026"
+        ],
+        [
+          "PR-1041",
+          "Nubi",
+          "Permesso temporaneo",
+          "Da verificare",
+          "01/06/2026",
+          "15/06/2026"
+        ],
+        [
+          "PR-1040",
+          "Riva",
+          "Richiesta certificazione",
+          "Completata",
+          "28/05/2026",
+          "08/06/2026"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Richiedente",
+        "Oggetto",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ]
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Registra una pratica di prova con stato e scadenza.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Richiedente",
+        "Oggetto",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ],
+      "rows": [],
+      "form": [
+        "Pratica",
+        "Richiedente",
+        "Oggetto",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ]
+    },
+    {
+      "id": "dettaglio-pratica",
+      "title": "Dettaglio pratica",
+      "description": "Rivedi i dati e l'avanzamento della pratica selezionata.",
+      "metrics": [
+        {
+          "label": "Pratiche assegnate",
+          "value": "11"
+        },
+        {
+          "label": "In scadenza",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Richiedente",
+        "Oggetto",
+        "Stato",
+        "Scadenza",
+        "Ultimo aggiornamento"
+      ],
+      "rows": [
+        [
+          "PR-1043",
+          "Lumo",
+          "Richiesta attestazione",
+          "In lavorazione",
+          "12/06/2026",
+          "06/06/2026"
+        ],
+        [
+          "PR-1042",
+          "Vela",
+          "Aggiornamento residenza",
+          "In attesa",
+          "13/06/2026",
+          "05/06/2026"
+        ],
+        [
+          "PR-1041",
+          "Nubi",
+          "Permesso temporaneo",
+          "Da verificare",
+          "15/06/2026",
+          "04/06/2026"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Richiedente",
+        "Oggetto",
+        "Stato",
+        "Scadenza",
+        "Ultimo aggiornamento"
+      ]
+    }
+  ]
+}
